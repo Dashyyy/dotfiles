@@ -1,0 +1,4 @@
+# for HYPR* and AQ_* variables
+export HYPRCURSOR_SIZE=24
+export HYPRCURSOR_THEME=NotwaitaBlack
+export HYPRSHOT_DIR="$HOME/files/Bilder/screenshots"

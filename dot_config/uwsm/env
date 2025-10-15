@@ -1,0 +1,8 @@
+# Env vars for theming, xcursor, nvidia and toolkit
+# see https://wiki.hyprland.org/Configuring/Environment-variables/
+export XCURSOR_SIZE=24
+export LIBVA_DRIVER_NAME=nvidia
+export GBM_BACKEND=nvidia-drm
+export __GLX_VENDOR_LIBRARY_NAME=nvidia
+export QT_QPA_PLATFORMTHEME=qt6ct
+export ELECTRON_OZONE_PLATFORM_HINT=wayland
