@@ -1,3 +1,3 @@
-function fish_prompt
+function fish_greeting
     fastfetch --config examples/17.jsonc
 end
