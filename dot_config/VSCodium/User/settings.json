@@ -1,5 +1,8 @@
 {
     "git.autofetch": true,
     "files.autoSave": "afterDelay",
-    "git.confirmSync": false
+    "git.confirmSync": false,
+    "database-client.autoSync": true,
+    "containers.containerClient": "com.microsoft.visualstudio.containers.podman",
+    "containers.orchestratorClient": "com.microsoft.visualstudio.orchestrators.podmancompose",
 }

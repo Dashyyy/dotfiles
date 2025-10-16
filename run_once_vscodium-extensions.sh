@@ -1,0 +1,21 @@
+vscodium \
+    --install-extension yzhang.markdown-all-in-one \
+    --install-extension ms-azuretools.vscode-containers \
+    --install-extension golang.go \
+    --install-extension ms-python.python \
+    --install-extension ms-python.debugpy \
+    --install-extension rust-lang.rust-analyzer \
+    --install-extension redhat.vscode-yaml \
+    --install-extension llvm-vs-code-extensions.vscode-clangd \
+    --install-extension github.vscode-pull-request-github \
+    --install-extension eamodio.gitlens \
+    --install-extension redhat.java \
+    --install-extension esbenp.prettier-vscode \
+    --install-extension dbaeumer.vscode-eslint \
+    --install-extension dart-code.dart-code \
+    --install-extension dart-code.flutter \
+    --install-extension bradlc.vscode-tailwindcss \
+    --install-extension vscjava.vscode-gradle \
+    --install-extension hashicorp.terraform \
+    --install-extension cweijan.vscode-mysql-client2 \
+    --install-extension redhat.vscode-xml
