@@ -1,0 +1,29 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "shift+alt+down",
+        "command": "editor.action.insertCursorBelow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+meta+b",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+meta+k",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "alt+meta+k",
+        "command": "workbench.action.terminal.new",
+    },
+    {
+        "key": "alt+ctrl+meta+k",
+        "command": "workbench.action.terminal.kill"
+    },
+    {
+        "key": "ctrl+meta+s",
+        "command": "workbench.action.splitEditor"
+    },
+]
