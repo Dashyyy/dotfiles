@@ -1,4 +1,3 @@
-#!/bin/bash
 tide configure --auto \
     --style=Rainbow \
     --prompt_colors='True color' \
