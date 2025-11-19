@@ -11,19 +11,18 @@
     },
     {
         "key": "ctrl+meta+k",
-        "command": "workbench.action.terminal.toggleTerminal",
-        "when": "terminal.active"
-    },
-    {
-        "key": "alt+meta+k",
-        "command": "workbench.action.terminal.new",
-    },
-    {
-        "key": "alt+ctrl+meta+k",
-        "command": "workbench.action.terminal.kill"
+        "command": "workbench.action.terminal.openNativeConsole",
+        "args": {
+            "cwd": "${workspaceFolder}"
+        },
     },
     {
         "key": "ctrl+meta+s",
-        "command": "workbench.action.splitEditor"
+        "command": "workbench.action.splitEditorToRightGroup"
+    },
+    {
+        "key": "ctrl+alt+tab",
+        "command": "workbench.action.toggleMaximizeEditorGroup",
+        "when": "editorPartMaximizedEditorGroup || editorPartMultipleEditorGroups"
     },
 ]
